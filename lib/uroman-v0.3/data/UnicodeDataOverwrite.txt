@@ -1,0 +1,137 @@
+## UnicodeDataOverwrite.txt
+::u 0901 ::r +m  ::comment Devanagari sign candrabindu
+::u 0902 ::r +m  ::comment Devanagari sign anusvara
+::u 0903 ::r +h  ::comment Devanagari sign visarga
+::u 093D ::r '   ::comment Devanagari sign avagraha
+::u 0981 ::r +n  ::comment Bengali sign candrabindu ("chôndrôbindu")
+::u 0982 ::r +ng ::comment Bengali sign anusvara ("ônushar")
+::u 0983 ::r +h  ::comment Bengali sign visarga ("bishôrgô")
+::u 099A ::r ch  ::comment instead of Bengali C(A)
+::u 099B ::r chh ::comment instead of Bengali CC(A)
+::u 0A02 ::r +m  ::comment Gurmukhi sign bindi
+::u 0A70 ::r +m  ::comment Gurmukhi tippi
+::u 0B01 ::r +m  ::comment Oriya sign candrabindu
+::u 0B03 ::r +h  ::comment Oriya sign visarga
+::u 0B82 ::r +m  ::comment Tamil sign anusvara (not to be used?)
+::u 0B83 ::r +h  ::comment Tamil sign visarga ("āytam")
+::u 0B9F ::r t   ::comment instead of Tamil TT(A)
+::u 0BA3 ::r n   ::comment instead of Tamil NN(A)
+::u 0BA9 ::r n   ::comment instead of Tamil NNN(A)
+::u 0BB1 ::r r   ::comment instead of Tamil RR(A)
+::u 0BB3 ::r l   ::comment instead of Tamil LL(A)
+::u 0BB4 ::r l   ::comment instead of Tamil LLL(A)
+::u 0C83 ::r +h  ::comment Kannada sign visarga
+::u 0D03 ::r +h  ::comment Malayalam sign visarga
+::u 0D82 ::r +m  ::comment Sinhala sign anusvaraya
+::u 0DCA ::r ""  ::comment Sinhala sign al-lakuna (virama = no vowel)
+::u 0E31 ::r a   ::comment Thai character MAI HAN-AKAT
+::u 0E3A ::r ""  ::comment Thai character PHINTHU (Pali virama)
+::u 0E43 ::r ai  ::comment Thai character SARA AI MAIMUAN
+::u 0E44 ::r ai  ::comment Thai character SARA AI MAIMALAI
+::u 0E45 ::r ""  ::comment Thai character LAKKHANGYAO vowel lengthener
+::u 0E47 ::r o   ::comment Thai character MAITAIKHU vowel shortener
+::u 0E48 ::r ""  ::comment Thai tone mark MAI EK
+::u 0E49 ::r ""  ::comment Thai tone mark MAI THO
+::u 0E4A ::r ""  ::comment Thai tone mark MAI TRI
+::u 0E4B ::r ""  ::comment Thai tone mark MAI CHATTAWA
+::u 0E4C ::r ""  ::comment Thai character THANTHAKHAT cancellation mark (cf. virama)
+::u 0E4D ::r +m  ::comment Thai character NIKHAHIT final nasal (cf. anusvara)
+::u 1036 ::r +n  ::comment Myanmar sign anusvara ("auk myit")
+::u 17C6 ::r +m  ::comment Khmer sign nikahit (cf. anusvara)
+::u 17C7 ::r +h  ::comment Khmer sign reahmuk (cf. visarga)
+::u 17C8 ::r '   ::comment Khmer sign yuukaleapintu (short vowel and glottal stop)
+::u 17CB ::r ""  ::comment Khmer sign bantoc (vowel shortener)
+::u 17D2 ::r ""  ::comment Khmer sign coeng (foot/subscript, cf. virama = no vowel) 
+::u 1163D ::r +m ::comment Modi sign anusvara
+::u 1163E ::r +h ::comment Modi sign visarga
+
+::u 13068 ::num 1000000 ::comment Egyptian Hieroglyph
+::u 1308B ::r r ::comment Egyptian Hieroglyph ::pic mouth
+::u 1309D ::r ' ::comment Egyptian Hieroglyph (ayn) ::pic forearm
+::u 130A7 ::r d ::comment Egyptian Hieroglyph ::pic hand
+::u 130AD ::num 10000 ::comment Egyptian Hieroglyph
+::u 130AE ::num 20000 ::comment Egyptian Hieroglyph
+::u 130AF ::num 30000 ::comment Egyptian Hieroglyph
+::u 130B0 ::num 40000 ::comment Egyptian Hieroglyph
+::u 130B1 ::num 50000 ::comment Egyptian Hieroglyph
+::u 130B2 ::num 60000 ::comment Egyptian Hieroglyph
+::u 130B3 ::num 70000 ::comment Egyptian Hieroglyph
+::u 130B4 ::num 80000 ::comment Egyptian Hieroglyph
+::u 130B5 ::num 90000 ::comment Egyptian Hieroglyph
+::u 130B6 ::num 50000 ::comment Egyptian Hieroglyph
+::u 130C0 ::r b ::comment Egyptian Hieroglyph ::pic foot
+::u 130ED ::r l ::comment Egyptian Hieroglyph [also rw] ::pic lion recumbent 
+::u 13121 ::r h ::comment Egyptian Hieroglyph (f-underscore) ::pic aninal's belly and udder 
+::u 1313F ::r a ::comment Egyptian Hieroglyph (alef) ::pic vulture
+::u 13153 ::r m ::comment Egyptian Hieroglyph ::pic owl
+::u 13171 ::r w ::comment Egyptian Hieroglyph ::pic quail chick
+::u 13187 ::r ::comment Egyptian Hieroglyph (determinative/son) H8 ::pic egg
+::u 13190 ::num 100000 ::comment Egyptian Hieroglyph
+::u 13191 ::r f ::comment Egyptian Hieroglyph ::pic horned viper
+::u 13193 ::r d ::comment Egyptian Hieroglyph (J) ::pic cobra
+::u 131BC ::num 1000 ::comment Egyptian Hieroglyph
+::u 131BD ::num 2000 ::comment Egyptian Hieroglyph
+::u 131BE ::num 3000 ::comment Egyptian Hieroglyph
+::u 131BF ::num 4000 ::comment Egyptian Hieroglyph
+::u 131C0 ::num 5000 ::comment Egyptian Hieroglyph
+::u 131C1 ::num 6000 ::comment Egyptian Hieroglyph
+::u 131C2 ::num 7000 ::comment Egyptian Hieroglyph
+::u 131C3 ::num 8000 ::comment Egyptian Hieroglyph
+::u 131C4 ::num 9000 ::comment Egyptian Hieroglyph
+::u 131CB ::r i ::comment Egyptian Hieroglyph (yod) ::pic single reed 
+::u 131CC ::r y ::comment Egyptian Hieroglyph ::pic double reed 
+::u 1320E ::r q ::comment Egyptian Hieroglyph (qaf) ::pic sandy slope
+::u 13209 ::comment Egyptian Hieroglyph ::pic desert hills
+::u 13216 ::r n ::comment Egyptian Hieroglyph ::pic ripple of water
+::u 13219 ::r sh ::comment Egyptian Hieroglyph (š) ::pic basin 
+::u 13254 ::r h ::comment Egyptian Hieroglyph ::pic reed shelter
+::u 13283 ::r z ::comment Egyptian Hieroglyph [also S?] ::pic door bolt 
+::u 132AA ::r p ::comment Egyptian Hieroglyph ::pic stool
+::u 132D4 ::r n ::comment Egyptian Hieroglyph ::pic red crown
+::u 132F4 ::r s ::comment Egyptian Hieroglyph [also Z?] ::pic folded cloth 
+::u 13319 ::comment Egyptian Hieroglyph ::pic throw stick
+::u 13362 ::num 100 ::comment Egyptian Hieroglyph
+::u 13363 ::num 200 ::comment Egyptian Hieroglyph
+::u 13364 ::num 300 ::comment Egyptian Hieroglyph
+::u 13365 ::num 400 ::comment Egyptian Hieroglyph
+::u 13366 ::num 500 ::comment Egyptian Hieroglyph
+::u 13367 ::num 600 ::comment Egyptian Hieroglyph
+::u 13368 ::num 700 ::comment Egyptian Hieroglyph
+::u 13369 ::num 800 ::comment Egyptian Hieroglyph
+::u 1336A ::num 900 ::comment Egyptian Hieroglyph
+::u 1336B ::num 500 ::comment Egyptian Hieroglyph
+::u 1336F ::r o ::comment Egyptian Hieroglyph ::pic lasso
+::u 1337F ::r t ::comment Egyptian Hieroglyph (ṯ) ::pic hobble 
+::u 13386 ::num 10 ::comment Egyptian Hieroglyph
+::u 13387 ::num 20 ::comment Egyptian Hieroglyph
+::u 13388 ::num 30 ::comment Egyptian Hieroglyph
+::u 13389 ::num 40 ::comment Egyptian Hieroglyph
+::u 1338A ::num 50 ::comment Egyptian Hieroglyph
+::u 1338B ::num 60 ::comment Egyptian Hieroglyph
+::u 1338C ::num 70 ::comment Egyptian Hieroglyph
+::u 1338D ::num 80 ::comment Egyptian Hieroglyph
+::u 1338E ::num 90 ::comment Egyptian Hieroglyph
+::u 1338F ::num 20 ::comment Egyptian Hieroglyph
+::u 13390 ::num 30 ::comment Egyptian Hieroglyph
+::u 13391 ::num 40 ::comment Egyptian Hieroglyph
+::u 13392 ::num 50 ::comment Egyptian Hieroglyph
+::u 1339B ::r h ::comment Egyptian Hieroglyph ::pic twisted flax
+::u 133A1 ::r k ::comment Egyptian Hieroglyph ::pic basket with handle
+::u 133A2 ::r k ::comment Egyptian Hieroglyph ::pic basket with handle, variant
+::u 133A4 ::r g ::comment Egyptian Hieroglyph ::pic bag
+::u 133BC ::r g ::comment Egyptian Hieroglyph ::pic stand
+::u 133CF ::r t ::comment Egyptian Hieroglyph ::pic loaf
+::u 133ED ::r y ::comment Egyptian Hieroglyph ::pic two strokes
+::u 133F2 ::r w ::comment Egyptian Hieroglyph ::pic quail chick, hieratic variant         
+::u 133FA ::num 1 ::comment Egyptian Hieroglyph
+::u 133FB ::num 2 ::comment Egyptian Hieroglyph
+::u 133FC ::num 3 ::comment Egyptian Hieroglyph
+::u 133FD ::num 4 ::comment Egyptian Hieroglyph
+::u 133FE ::num 5 ::comment Egyptian Hieroglyph
+::u 133FF ::num 6 ::comment Egyptian Hieroglyph
+::u 13400 ::num 7 ::comment Egyptian Hieroglyph
+::u 13401 ::num 8 ::comment Egyptian Hieroglyph
+::u 13402 ::num 9 ::comment Egyptian Hieroglyph
+::u 13403 ::num 5 ::comment Egyptian Hieroglyph
+::u 1340D ::r kh ::comment Egyptian Hieroglyph (ḫ, khah) ::pic placenta?
+::u 1341D ::r m ::comment Egyptian Hieroglyph (also jm)

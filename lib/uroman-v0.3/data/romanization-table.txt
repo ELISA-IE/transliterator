@@ -1,0 +1,471 @@
+﻿
+## European Latin extensions
+# Vowels
+::s Ä ::t Ae
+::s Ö ::t Oe
+::s Ü ::t Ue
+::s Å ::t Aa
+::s Æ ::t Ae
+::s Ø ::t oe
+::s Œ ::t Oe
+::s ä ::t ae
+::s ö ::t oe
+::s ü ::t ue
+::s å ::t aa
+::s æ ::t ae
+::s ø ::t oe
+::s œ ::t oe
+# Consonants
+::s Ç ::t S
+::s ç ::t s
+::s Ç ::t Ch ::lcode tur
+::s ç ::t ch ::lcode tur
+::s Ş ::t Sh
+::s ş ::t sh
+::s Ș ::t Sh
+::s ș ::t sh
+::s ß ::t ss
+::s Ț ::t Ts
+::s ț ::t ts
+
+# Miscellaneous
+::s ə ::t e
+::s ghotI’ ::t fish ::comment Klingon
+
+# Greek
+::s Ι ::t I
+::s ι ::t i
+::s ί ::t i
+::s ἶ ::t i
+::s Υ ::t Y
+::s υ ::t y
+::s Ρ ::t R
+::s ρ ::t r
+::s Ντ ::t D
+::s ντ ::t nd
+# ::s ντζ ::t ntz
+::s Μπ ::t B
+::s μπ ::t mb
+
+# Cyrillic
+::s Г ::t G
+::s г ::t g
+::s Е ::t E
+::s е ::t e
+::s Ҥ ::t Ng ::comment Cyrillic capital ligature EN GHE
+::s ҥ ::t ng ::comment Cyrillic small ligature EN GHE
+::s Ә ::t e ::comment Cyrillic capital schwa
+::s ә ::t e ::comment Cyrillic small schwa
+::s Ь ::t ::comment Cyrillic capital soft sign
+::s ь ::t ::comment Cyrillic small soft sign
+::s Ъ ::t ::comment Cyrillic capital hard sign
+::s ъ ::t ::comment Cyrillic small hard sign
+::s Ӏ ::t ' ::comment Cyrillic palochka
+::s Ҵ ::t TS ::comment Cyrillic capital ligature te tse, used in Abkhasian
+::s ҵ ::t ts ::comment Cyrillic small ligature te tse, used in Abkhasian
+::s Ӕ ::t AE ::comment Cyrillic capital ligature a ie
+::s ӕ ::t ae ::comment Cyrillic small ligature a ie
+::s Г ::t H ::lcode ukr ::comment Ukrainian capital letter he 
+::s г ::t h ::lcode ukr ::comment Ukrainian small letter he
+::s Ґ ::t G ::lcode ukr ::comment Ukrainian capital letter ghe
+::s ґ ::t g ::lcode ukr ::comment Ukrainian small letter ghe
+
+# Gothic
+::s 𐌴 ::t e ::comment Gothic letter aihvus
+::s 𐌹 ::t i ::comment Gothic letter eis
+::s 𐍇 ::t x ::comment Gothic letter iggws
+
+# Georgian
+::s ა ::t a ::comment Georgian letter an
+::s ე ::t e ::comment Georgian letter en
+::s ი ::t i ::comment Georgian letter in
+::s ო ::t o ::comment Georgian letter on
+::s უ ::t u ::comment Georgian letter un
+
+# Armenian
+::s Ա ::t a ::comment Armenian capital letter ayb
+::s ա ::t a ::comment Armenian small letter ayb
+::s Ե ::t e ::comment Armenian capital letter ech
+::s ե ::t e ::comment Armenian small letter ech
+::s և ::t ev ::comment Armenian small ligature ech yiwn
+::s Է ::t e ::comment Armenian capital letter eh
+::s է ::t e ::comment Armenian small letter eh
+::s Ի ::t i ::comment Armenian capital letter ini
+::s ի ::t i ::comment Armenian small letter ini
+::s Օ ::t o ::comment Armenian capital letter oh
+::s օ ::t o ::comment Armenian small letter oh
+
+## Japanese
+# Katakana
+::s シ ::t shi
+::s チ ::t chi
+::s ツ ::t tsu
+::s フ ::t fu
+::s ジ ::t ji
+::s ヂ ::t ji
+::s ヅ ::t zu
+::s シャ ::t sha
+::s シュ ::t shu
+::s ショ ::t sho
+::s チャ ::t cha
+::s チェ ::t che
+::s チュ ::t chu
+::s チョ ::t cho
+::s ジャ ::t ja
+::s ジュ ::t ju
+::s ジョ ::t jo
+::s ジェ ::t je
+::s ヂャ ::t ja
+::s ヂュ ::t ju
+::s ヂョ ::t jo
+::s フェ ::t fe
+::s ヴェ ::t ve
+::s フィ ::t fi
+::s ウィ ::t wi
+::s ヴィ ::t vi
+::s ティ ::t ti
+::s ディ ::t di
+::s ッ ::t (__SOKUON__) ::comment katakana double following consonant
+::s ー ::t (__CHOONPU__) ::comment katakana prolonged sound mark
+# Hiragana
+::s し ::t shi
+::s ち ::t chi
+::s つ ::t tsu
+::s ふ ::t fu
+::s を ::t o
+::s じ ::t ji
+::s ぢ ::t ji
+::s づ ::t zu
+::s しゃ ::t sha
+::s しゅ ::t shu
+::s しょ ::t sho
+::s ちゃ ::t cha
+::s ちゅ ::t chu
+::s ちょ ::t cho
+::s じゃ ::t ja
+::s じゅ ::t ju
+::s じょ ::t jo
+::s ぢゃ ::t ja
+::s ぢゅ ::t ju
+::s ぢょ ::t jo
+::s っ ::t (__SOKUON__) ::comment hiragana double following consonant
+# ::s 々 ::t <REPEAT> ::comment ideographic iteration mark: previous janji/hanzi should be repeated
+
+## Numbers
+# Chinese and Japanese numbers
+::s 零 ::num 0
+::s 〇 ::num 0
+::s 一 ::num 1
+::s 二 ::num 2
+::s 三 ::num 3
+::s 四 ::num 4
+::s 五 ::num 5
+::s 六 ::num 6
+::s 七 ::num 7
+::s 八 ::num 8
+::s 九 ::num 9
+::s 十 ::num 10
+::s 百 ::num 100
+::s 千 ::num 1000
+::s 万 ::num 10000
+::s 億 ::num 100000000
+::s 兆 ::num 1000000000000
+::s 京 ::num 10000000000000000
+::s 北京 ::t beijing
+::s 京都 ::t jingdou
+::s 东京 ::t dongjing
+::s 京胡 ::t jinghu
+::s 南京 ::t nangjing
+::s 普京 ::t pujing ::comment Putin
+
+## Indian
+# see mostly under UnicodeDataOverwrite.txt
+
+# Sinhala
+::s ෙ ::t e
+::s ි ::t i
+::s ො ::t o
+::s ු ::t u
+::s ැ ::t a
+::s ා ::t aa
+::s ේ ::t ee
+::s ී ::t ii
+::s ෝ ::t oo
+::s ූ ::t uu
+::s ෑ ::t ae
+::s ඤ ::t ny 
+::s ඥ ::t gn
+::s ෞ ::t au
+::s ෛ ::t ai
+::s ෲ ::t rr
+
+# Malayalam
+::s ൗ ::t au ::comment MALAYALAM AU LENGTH MARK
+
+# Tamil
+::s ட ::t d ::comment most commonly d, but t when word-initial or in a doubled consonant
+::s ஃப ::t f ::comment h+p=f
+::s ஃஜ ::t z ::comment h+j=z
+
+# Myanmar/Burmese
+::s ့ ::t ::comment dot below, denotes creaky tone
+::s း ::t ::comment visarga, denotes high tone
+::s ၌ ::t -nai ::comment locative
+::s ၍ ::t -jew ::comment completed
+::s ၎ ::t legau ::comment aforementioned
+::s ၏ ::t -i ::comment genetive
+
+# Lao
+::s ັ ::t a ::comment vowel sign mai kan
+::s ົ ::t o ::comment vowel sign mai kon
+::s ູ ::t uu ::comment vowel sign uu
+::s ຽ ::t y ::comment semivowel sign nyo
+::s ຼ ::t l ::comment semivowel sign lo
+::s ລ ::t l ::comment lo loot
+::s ຣ ::t l ::comment lo ling
+::s ໝ ::t m ::comment ho mo
+::s ໜ ::n ::comment ho no
+::s ຢ ::t y ::comment yo
+::s ໍ ::t oo ::comment niggahita (possibly also nasal -m in final position)
+# ::s ໆ ::t <REPEAT> ::comment Lao ko la: repetition sign
+
+# Thai
+::s ออ ::t o
+# ::s ๆ ::t ::t <REPEAT> ::comment Thai character maiyamok: repetition sign
+
+# Khmer
+::s ័ ::t "" ::comment Khmer samyok sannya: indicates deviation from the general rules of pronunciation
+::s ៉ ::t "" ::comment Khmer sign muusikatoan: changes the second register to the first
+::s ៊ ::t "" ::comment Khmer sign triisap: changes the first register to the second
+::s ៏ ::t "" ::comment Khmer sign ahsda: denotes stressed intonation in some single-consonant words
+::s ៍ ::t "" ::comment Khmer sign toandakhiat: indicates that the base character is not pronounced
+::s ៌ ::t "" ::comment Khmer sign robat: a diacritic historically corresponding to the repha form of ra in Devanagari
+# ::s ៗ ::t <REPEAT> ::comment Khmer sign lek too: repetition sign
+
+## Semitic languages
+# Arabic
+::s ء ::t ' ::comment hamza 
+::s ٔ ::t ' ::comment hamza above
+::s ٕ ::t ' ::comment hamza below
+::s ع ::t ' ::comment ain
+::s آ ::t a ::comment alef madda
+::s إ ::t i ::comment alef with hamza below
+::s ٱ ::t a ::comment alef wasla ::comment typically indicates liaison with preceding word 
+::s ة ::t a ::comment teh marbuta
+::s ۃ ::t a ::comment teh marbuta goal ::comment Used in Punjabi, Sindhi. Different from plain 'teh marbuta'?
+::s ي ::t y ::comment Arabic yeh
+::s ى ::t a ::comment alef maksura
+::s ﻯ ::t a ::comment alef maksura isolated form
+::s ٰ ::t a  ::comment Arabic letter superscript alef
+::s ـ ::t   ::comment tatweel (filler)
+::s َ ::t a ::comment fatha ("-a")
+::s ُ ::t u ::comment damma ("-u")
+::s ِ ::t i ::comment kasra ("-i")
+::s ْ ::t ::comment sukun (no vowel)
+::s ً ::t   ::comment fathatan ("-an")
+::s ٌ ::t   ::comment dammatan ("-un")
+::s ٍ ::t   ::comment kasratan ("-in")
+::s ّ  ::t ::comment shadda (consonant doubler)
+::s ۾ ::t men ::comment Sindhi postposition men
+
+# Maldivian
+::s ް ::t ::comment thaana sukun
+::s ަ ::t a ::comment thaana abafili
+::s ާ ::t aa ::comment thaana aabaafili
+::s ި ::t i ::comment thaana ibifili
+::s ީ ::t ee ::comment thaana eebeefili
+::s ު ::t u ::comment thaana ubufili
+::s ޫ ::t oo ::comment thaana ooboofili
+::s ެ ::t e ::comment thaana ebefili
+::s ޭ ::t ey ::comment thaana eybeyfili
+::s ޮ ::t o ::comment thaana obofili
+::s ޯ ::t oa ::comment thaana oaboafili
+# Farsi
+::s ی ::t y
+# Hebrew
+::s ו ::t w
+::s וֹ ::t o
+::s וּ ::t u
+::s קְוָ ::t qva
+::s י ::t y
+::s יּ ::t y
+::s יָּ ::t ya
+::s ע ::t '
+::s ִי ::t i
+::s ֵי ::t e
+::s ִיּ ::t iy
+::s ִיָּ ::t iya
+::s ױ ::t oy
+::s פ ::t f
+::s פּ ::t p
+::s פַּ ::t pa
+::s פְּ ::t pe
+::s שׁ ::t sh
+::s שָׁ ::t sha
+::s שָּׁ ::t sha ::comment ?
+::s שְׁ ::t she
+::s שֶׁ ::t she
+::s שִׁ ::t shi
+::s שֻׁ ::t shu
+::s שׂ ::t s
+::s שָׂ ::t sa
+::s שְׂ ::t s ::comment maybe 'se'
+::s כּ ::t k
+::s כֶּ ::t ke
+::s כֹּ ::t ko
+::s ב ::t v
+::s בּ ::t b
+::s בַּ ::t ba
+::s בָּ ::t ba
+::s בְּ ::t be
+::s בֶּ ::t be
+::s תּ ::t t
+::s תַּ ::t ta
+::s תֵּ ::t te
+::s תִּ ::t ti
+::s דָּ ::t da
+::s דְּ ::t de
+::s גּ ::t g
+::s לֵּ ::t le
+::s ַ ::t a ::comment Hebrew point patah
+::s ֲ ::t a ::comment Hebrew point hataf patah (hataf = reduced)
+::s ָ ::t a ::comment Hebrew point qamats
+::s ֶ ::t e ::comment Hebrew point segol
+::s ֱ ::t e ::comment Hebrew point hataf segol (hataf = reduced)
+::s ְ ::t e ::comment Hebrew point sheva
+::s ֵ ::t e ::comment Hebrew point tsere
+::s ִ ::t i ::comment Hebrew point hiriq
+::s ֹ ::t o ::comment Hebrew point holam
+::s ֻ ::t u ::comment Hebrew point qubuts
+# Yiddish
+::s א ::t a ::lcode yid ::comment called "silent" alef
+::s אי ::t y ::lcode yid
+::s איי ::t ey ::lcode yid
+::s או ::t u ::lcode yid
+::s אוי ::t oy ::lcode yid
+::s אַ ::t a ::lcode yid
+::s אָ ::t o ::lcode yid
+::s ב ::t b ::lcode yid
+::s בֿ ::t v ::lcode yid
+::s דזש ::t dzh ::lcode yid
+::s ו ::t u ::lcode yid
+::s וּ ::t u ::lcode yid
+::s וֹ ::t o ::lcode yid
+::s װ ::t v ::lcode yid
+::s ווא ::t wa ::lcode yid
+::s וואַ ::t wa ::lcode yid
+::s ווע ::t we ::lcode yid
+::s ווי ::t wi ::lcode yid
+::s וואוי ::t wo ::lcode yid
+::s וי ::t oy ::lcode yid
+::s זש ::t zh ::lcode yid
+::s ח ::t ch ::lcode yid
+::s טש ::t tsh ::lcode yid
+::s יִ::t i ::lcode yid
+::s יי ::t ey ::lcode yid ::comment maybe "yi" at beginning of word
+::s ײַ ::t ay ::lcode yid
+::s כּ ::t k ::lcode yid
+::s כ ::t ch ::lcode yid
+::s ך ::t ch ::lcode yid
+::s ע ::t e ::lcode yid
+::s פּ ::t p ::lcode yid
+::s פֿ ::t f ::lcode yid
+::s ף ::t f ::lcode yid ::comment sometimes p
+::s ק ::t k ::lcode yid
+::s ת ::t s ::lcode yid
+
+# Syriac/Aramaic
+::s ܰ ::t a ::comment Syriac pthaha above
+::s ܲ ::t a ::comment Syriac pthaha dotted
+::s ܳ ::t aa ::comment Syriac zqapha above
+::s ܵ ::t aa ::comment Syriac zqapha dotted
+::s ܶ ::t e ::comment Syriac rbasa above
+::s ܸ::t e ::comment Syriac dotted zlama horizontal
+::s ܝܺ ::t i ::comment Syriac yudh + hbasa above
+
+# Canadian syllabics (Inuktitut)
+::s ᑊ ::t p ::comment syllable final
+::s ᐟ ::t t ::comment syllable final
+::s ᐠ ::t k ::comment syllable final
+::s ᐨ ::t c ::comment syllable final
+::s ᒼ ::t m ::comment syllable final
+::s ᐣ ::t n ::comment syllable final
+::s ᐢ ::t s ::comment syllable final
+::s ᐧ ::t y ::comment syllable final
+::s ᐤ ::t w ::comment syllable final
+::s ᐦ ::t h ::comment syllable final
+::s ᕽ ::t hk ::comment syllable final
+::s ᓫ ::t l ::comment syllable final
+::s ᕑ ::t r ::comment syllable final
+
+## Punctuation
+# delete
+::s ¿ ::t "" ::comment inverted question mark
+::s ¡ ::t "" ::comment inverted exclamation mark
+# preserve
+::s ′ ::t ′
+# Cyrillic
+::s ⁙ ::t . ::comment five dot punctuation
+# Ethiopian
+::s ። ::t .
+::s ፣ ::t ,
+::s ፤ ::t ;
+::s ፥ ::t :
+::s ፡ ::t " " ::comment Ethiopic wordspace
+# Devanagari (Hindi etc.)
+::s । ::t . ::comment danda
+::s ৷ ::t . ::comment Bengali currency numerator four; used as danda
+::s ॰ ::t . ::comment Devanagari abbreviation sign
+# Tibetan
+::s ། ::t ,
+::s ༏ ::t ;
+::s ༎ ::t .
+# Myanmar/Burmese
+::s ၊ ::t ;
+::s ။ ::t .
+Khmer
+::s ៖ ::t ; ::comment Khmer sign camnuc pii kuuh
+::s ។ ::t . ::comment Khmer sign khan
+# Arabic
+::s ، ::t ,
+::s ٬ ::t ,
+::s ۔ ::t .
+::s ؟ ::t ?
+::s ٪ ::t %
+::s ٫ ::t , ::comment Arabic decimal separator
+::s ۽ ::t & ::comment Arabic sign Sindhi ampersand
+# Aramaic
+::s ܀ ::t .
+::s ܂ ::t .
+# Hebrew
+::s ־ ::t - ::comment maqaf
+# Armenian
+::s ։ ::t .
+::s ՝ ::t , ::comment Armenian comma
+# Chinese
+::s ， ::t ", "
+::s 、 ::t ", "
+::s 。 ::t ". "
+::s ！ ::t "! "
+::s ？ ::t "? "
+::s 「 ::t ' "'
+::s 」 ::t '" '
+::s 《 ::t ' "'
+::s 》 ::t '" '
+::s （ ::t " ("
+::s ） ::t ") "
+::s ； ::t ;
+::s ： ::t ": "
+::s ︰ ::t ": "
+::s － ::t -
+::s ／ ::t /
+::s ＝ ::t =
+::s ～ ::t ~
+::s ＆ ::t &
+::s ＜ ::t <
+::s ＞ ::t >
+::s ％ ::t %
+::s 　 ::t " " ::comment ideographic space
+# Japanese
+::s 『 ::t ' "'
+::s 』 ::t '" '
